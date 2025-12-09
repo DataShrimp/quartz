@@ -52,7 +52,7 @@ sequenceDiagram
     participant Verify as Verifier
 
     loop Self-Evolution
-        Model->>Env: Generate <Env, Tool, Task>
+        Model->>Env: Generate （Env, Tool, Task）
         Note right of Model: Difficulty Level N
         Model->>Tools: Call Tools / Logical Calc
         Tools-->>Model: Result

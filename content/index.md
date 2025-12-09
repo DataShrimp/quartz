@@ -1,14 +1,14 @@
 ---
-title: 数据小虾米（Data Shrimp）
+title: 数据小虾米
 description: AI 原生一人公司实践者
 ---
 ---
 # 👋 Hello, I'm Data Shrimp.
 
 > [!quote] 核心理念
-> **身虽小，吞吐海量（Small Body, Big Data）。**
+>  数据小虾米：**身虽小，吞吐海量（Small Body, Big Data）。**
 > 
-> 我是一名**基于 AI 原生能力的架构师与践行者**，致力于让个体拥有挑战团队的产出能力。
+> 我是一名**基于 AI 原生能力的架构师与践行者**，通过 AI 致力于让个体拥有挑战团队的产出能力。
 
 ---
 

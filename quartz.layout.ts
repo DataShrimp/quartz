@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/DataShrimp",
+      "X (Titter)": "https://x.com/DataShrimp93971",
     },
   }),
 }
@@ -41,8 +41,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    //Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.RecentNotes({
+      title: "🌿 最近文章", // 您可以自定义标题
+      limit: 5,         // 显示文章的数量限制
+      showTags: false,
+      sort: (f1, f2) => {
+        return new Date(f2.dates?.created!).getTime() - new Date(f1.dates?.created!).getTime();
+      }
+    }),
     Component.Backlinks(),
   ],
 }

@@ -1,7 +1,11 @@
 ---
-title: 只需要 $50/年：构建“一人 AI 原生公司”的数字底座
-date: 2025-12-08
-tags: [Architecture, VPS, n8n, AI]
+title: $50/年：构建“一人 AI 原生公司”的数字底座
+date: 2025-12-09
+tags:
+  - Architecture
+  - VPS
+  - n8n
+  - AI
 description: 如何用一台 VPS 和 Docker 生态，打造包含 API 网关、自动化中台、云端开发环境的企业级架构。
 ---
 

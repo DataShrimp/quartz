@@ -52,31 +52,6 @@ graph TD
 *   **强制交互**：强制要求 AI 智能调用工具或执行逻辑计算，直到验证通过。
 *   **自我修炼**：当任务通过后，进一步提高任务难度；若现有工具集不足以解决问题，则增强工具集。
 
-```mermaid
-sequenceDiagram
-    participant Model as V3.2 Model
-    participant Env as Environment
-    participant Tools as Toolset
-    participant Verify as Verifier
-
-    loop Self-Evolution
-        Model->>Env: Generate （Env, Tool, Task）
-        Note right of Model: Difficulty Level N
-        Model->>Tools: Call Tools / Logical Calc
-        Tools-->>Model: Result
-        Model->>Verify: Submit Solution
-        alt Verification Failed
-            Verify-->>Model: Fail (Retry)
-        else Verification Passed
-            Verify-->>Model: Pass
-            Note right of Model: Increase Difficulty (N+1)
-            opt Tools Insufficient
-                Model->>Tools: Enhance Toolset
-            end
-        end
-    end
-```
-
 如此不断自我修炼，迭代的任务难度使得 GPT-5-Thinking 也面临挑战。生成的大规模训练数据可**显著提升模型在复杂交互环境中的泛化能力和指令遵循能力**。
 
 ---

@@ -58,4 +58,6 @@ tags:
 ---
 
 > [!abstract] 订阅更新
-> 关注我的 **[X (Twitter)](https://x.com/DataShrimp93971)** 或订阅 **[RSS](https://blog.datashrimp.space/index.xml)**，见证一只虾米的进化。
+> 关注我的 **公众号/[X (Twitter)](https://x.com/DataShrimp93971)** 或订阅 **[RSS](https://blog.datashrimp.space/index.xml)**，见证一只虾米的进化。
+> 
+> ![[扫码_搜索联合传播样式-标准色版.png|400]]

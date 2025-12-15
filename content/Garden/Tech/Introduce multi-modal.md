@@ -37,6 +37,8 @@ ImageBind 的核心策略是**以视觉模态为锚点**（Anchor）。其原理
 | **IMU** (Motion)     | 惯性测量单元产生的运动信息是时间序列数据，使用 1D 卷积投影为 Token 序列，然后由 Transformer 编码              |
 | **视频** (Video)     | 将其视为 2 帧的图像序列，使用“时间膨胀”的 ViT 编码，复用空间特征提取能力                                      |
 
+![Multimodal Unified Encoding](../../attachments/multimodal_unified_encoding.png)
+
 ### 涌现对齐 (Emergent Alignment)
 
 ImageBind 第一次实现了跨模态的**“涌现”对齐**。
@@ -50,6 +52,8 @@ ImageBind 第一次实现了跨模态的**“涌现”对齐**。
 ## CrossOver：空间认知的进化
 
 如果说 ImageBind 实现了**感知层**（Semantic）的多模态统一，那么 2025 年 CVPR 提出的 **CrossOver** 架构则构建了**空间层**（Spatial）的多模态对齐。
+
+![ImageBind vs CrossOver](../../attachments/imagebind_vs_crossover.png)
 
 ### 从语义到空间
 

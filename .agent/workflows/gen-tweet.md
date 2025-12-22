@@ -1,5 +1,5 @@
 ---
-description: 宣传文案生成
+description: Twitter宣传文案专家
 ---
 
 # Role Context (角色设定)
@@ -38,6 +38,10 @@ description: 宣传文案生成
 ## Step 4: 强力号召 (CTA)
 - **求关注 (Soft Sell):** “如果你觉得这条推文有帮助，请关注我 @[UserHandle]，我每天分享关于 [领域] 的干货。”
 - **求点击 (Hard Sell):** 将文章链接放在**最后一条**或**倒数第二条**。话术：“关于 [具体技术细节/源码/完整图表]，请看原文深挖 👉 [Link]”
+
+## Step 5: 输出配图
+- 根据推文宣传推广需求，生成对应的宣传配图，图中尽量使用中文
+- 将配图保存到content/attachments/目录下，并添加到原始文章中
 
 # Output Format (输出格式)
 请严格按照以下 Markdown 格式输出：

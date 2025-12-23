@@ -6,7 +6,10 @@ tags:
   - Diffusion
   - 生成式AI
 date: 2025-12-22
+cover: ../../attachments/diffusion-model-promo.png
 ---
+
+![Diffusion Model Promo](../../attachments/diffusion-model-promo.png)
 
 ## 引言：从理解到生成
 

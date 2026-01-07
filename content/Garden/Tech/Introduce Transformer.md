@@ -65,8 +65,6 @@ $$\text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)
 |  **Encoder-Only**   |   BERT   | 理解任务     | 文本分类、情感分析、NER  |
 | **Encoder-Decoder** | T5, BART | Seq2Seq 任务 | 机器翻译、摘要生成       |
 
-> 💡 **延伸阅读**：关于预训练、微调和对齐的详细介绍，请参见 [[IntroduceLLM|大语言模型技术全景]]。
-
 ---
 
 ## 注意力的局限
@@ -128,7 +126,6 @@ $$\text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)
 
 ## 相关阅读
 
-- [[IntroduceLLM|大语言模型技术全景]] — LLM 的预训练、微调与对齐
 - [[Introduce Diffusion|扩散模型入门]] — 图像生成的核心技术
 
 ---

@@ -133,6 +133,7 @@ Engram 的出现证明了：**大模型不必总是通过“计算”来获取�
 > 
 > 欢迎关注公众号「数据小虾米」
 
-## 建议前置阅读
+## 推荐阅读
 
-- [[Introduce Transformer|Transformer详解]]
+- [[Introduce Transformer|Transformer基础详解]]
+- [[https://github.com/deepseek-ai/Engram?tab=readme-ov-file|Engram Github 项目]]

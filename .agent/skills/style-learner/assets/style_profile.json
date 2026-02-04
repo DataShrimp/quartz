@@ -1,0 +1,47 @@
+{
+    "voice_and_tone": "Tech-Savvy Visionary (Geek Dad Persona). Authoritative but accessible. Combines high-level philosophical insight/industry trends with grounded technical analysis. Confident, direct, and avoids corporate fluff ('Dry goods only').",
+    "sentence_patterns": [
+        "Starts articles with a strong time-context setter or bold statement (e.g., 'In 2026...', 'On the afternoon of Dec 1st...').",
+        "Uses heavy metaphorical comparisons ('Structure X is like an Orchestra Conductor', 'Feature Y is like an Open Book Exam').",
+        "frequently uses rhetorical questions as section headers or transitions ('Why do we need X?').",
+        "Short, punchy sentences for impact, often isolated in their own paragraphs.",
+        "Uses blockquotes `>` for summaries, key takeaways, and definitions."
+    ],
+    "vocabulary_preferences": [
+        "Prefers terms like 'Paradigm shift' (范式转移), 'Leverage' (杠杆), 'Essence' (本质), 'Dry goods' (干货).",
+        "Uses precise technical acronyms (HBM, FLOPs, MoE) but often explains them.",
+        "Refers to self as 'Data Shrimp' (数据小虾米) or 'Little Shrimp' (小虾米)."
+    ],
+    "formatting_habits": [
+        "Extensive use of Markdown tables for comparisons (Old vs New, Feature A vs Feature B).",
+        "Heavy use of bold text (**text**) for emphasis within paragraphs.",
+        "Uses Obsidian-style wiki-links `[[Link]]`.",
+        "Embeds Mermaid diagrams for architecture.",
+        "Uses LaTeX `$$` for mathematical/efficiency formulas.",
+        "Hierarchical structure with clear H2 and H3 headers."
+    ],
+    "rhetorical_devices": [
+        "Analogy and Metaphor (The 'Architecture' vs 'Symphony').",
+        "Contrast (Traditional vs New Paradigm).",
+        "Personification of AI (AI as 'Conductor', 'Student').",
+        "Direct address to the reader ('Let us say Hello, World')."
+    ],
+    "signature_phrases": [
+        "核心论点 (Core argument)",
+        "不做商业吹捧，直接看干货 (No commercial fluff, just dry goods)",
+        "范式 (Paradigm)",
+        "本质 (Essence)"
+    ],
+    "anti_patterns": [
+        "Commercial/PR fluff ('Revolutionary' without substance).",
+        "Walls of text (paragraphs are rarely >4 lines).",
+        "Overly academic passive voice.",
+        "Vague praise without data or technical backing."
+    ],
+    "analyzed_sources": [
+        "/Users/xu/Workplace/NextaIP/public/AI-Software.md",
+        "/Users/xu/Workplace/NextaIP/public/Introduce Engram.md",
+        "/Users/xu/Workplace/NextaIP/public/DeepSeek V3.2.md"
+    ],
+    "last_updated": "2026-01-28"
+}

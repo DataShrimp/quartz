@@ -18,13 +18,13 @@ date: 2026-02-04
 
 $$ \text{Silicon Intelligence} = \text{Memory Storage} + \text{Cognitive Processing} + \text{Planning} $$
 
-本文重点讲解 [[Agent]] 智能的重要模块之一——**记忆**，现在进化到了什么程度。
+本文重点讲解 LLM Agent 智能的重要模块之一——**记忆**，现在进化到了什么程度。
 
 ---
 
 ## 1. 临场感的工程学：短期记忆即上下文
 
-所谓的"短期工作记忆"（Short-Term Working Memory），在 LLM 的架构里映射为 **[[Context Window]]**。
+所谓的"短期工作记忆"（Short-Term Working Memory），在 LLM 的架构里映射为 **Context Window**。
 
 这不是简单的文本存储，它是 Agent 的**感知窗口**。它提供了感知道具当下环境的先验知识，以及动态调整注意力权重的新证据。
 
@@ -55,7 +55,7 @@ $$ \text{Silicon Intelligence} = \text{Memory Storage} + \text{Cognitive Process
 
 ![MemGPT 架构图：LLM 作为操作系统](attachments/memgpt-architecture.png)
 
-> **[[MemGPT]] 的启示**：把 Context Window 当作内存（RAM），把外部数据库当作硬盘（Disk），并通过"Heartbeat"机制让 Agent 自主决定何时读写。这就是 LLM 作为操作系统的雏形。
+> **MemGPT 的启示**：把 Context Window 当作内存（RAM），把外部数据库当作硬盘（Disk），并通过"Heartbeat"机制让 Agent 自主决定何时读写。这就是 LLM 作为操作系统的雏形。
 
 ---
 
@@ -84,7 +84,7 @@ $$ \text{Silicon Intelligence} = \text{Memory Storage} + \text{Cognitive Process
 
 未来的方向不是一味堆砌参数，而是**蒸馏必要知识，不断微调重构认知**。借助可随时调用的外部工具（RAG/Skills），让 Agent 从重型计算转向轻量化的**工具增强型认知**。
 
-愿大家都能轻装前行。
+愿大家都能轻装前行，以有涯随无涯。
 
 ---
 

@@ -9,7 +9,7 @@ tags:
 date: 2026-01-28
 ---
 
-![Kimi 2.5 Agent Swarm 概念图](attachments/kimi-swarm-cover.png)
+![[kimi-swarm-cover.png|Kimi 2.5 Agent Swarm 概念图]]
 > **OpenAI 和 DeepSeek 还在卷“思维深度”的深井，Kimi 2.5 却掉转船头，冲向了“执行广度”的旷野。**
 > 这不仅仅是模型参数的提升，更是一场关于“群体智能”的暴力美学实验。
 

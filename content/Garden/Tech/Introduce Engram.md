@@ -12,7 +12,7 @@ date: 2026-01-14
 
 # Engram详解：DeepSeek的大模型"条件记忆"新范式
 
-![Engram架构概念图](attachments/engram_cover.png)
+![[engram_cover.png|Engram架构概念图]]
 
 > DeepSeek 提出的“条件记忆”新范式——不是所有问题都需要深度推理，有些知识“背下来”就好。
 
@@ -60,7 +60,7 @@ Engram 把这套策略搬到了大模型里。
 
 Engram 引入了**计算与存储解耦**的革命性架构思路：
 
-![Engram架构技术图解](attachments/engram_architecture.png)
+![[engram_architecture.png|Engram架构技术图解]]
 
 1.  **存储卸载（Offloading）**：将海量的静态知识（N-gram 表）存储在廉价的 **CPU 内存（DRAM）** 中，而非昂贵的 GPU 显存。
 2.  **O(1) 极速检索**：利用哈希映射实现常数时间复杂度的知识查阅，无论知识库多大，检索延迟几乎恒定。

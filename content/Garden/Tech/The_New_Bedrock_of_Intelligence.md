@@ -12,7 +12,7 @@ date: 2026-02-02
 
 # 智能的基石：Iceberg + Lance 如何定义了 AI 时代的"数据底座"
 
-![AI 数据底座架构演进示意图](attachments/ai-data-bedrock-cover.png)
+![[ai-data-bedrock-cover.png|AI 数据底座架构演进示意图]]
 
 > **核心论点**：从 2009 年 Hadoop 奠基，到 2022 年 Iceberg v1.0 成熟，数据架构已走过两个时代。而在 AI 时代，有潜力大数据基础方案是 **Iceberg（治理）+ Lance（多模态向量）**。这不是一次简单的升级，而是一场从"平面报表"到"时空智能"的**范式转移**。
 
@@ -35,7 +35,7 @@ date: 2026-02-02
 
 ## 2. 多模态指令：给高维复杂度"安个家"
 
-![多模态视角对比：上帝视角与第一人称视角](attachments/multimodal-perspectives.png)
+![[multimodal-perspectives.png|多模态视角对比：上帝视角与第一人称视角]]
 
 现在的基础模型（Foundation Models），早已不满足于处理 Excel 表格里的二维数据。它们渴望的是**全知全能的态势感知**：
 

@@ -20,7 +20,7 @@ aliases:
 
 本文是 [[IntroduceLLM|LLM技术全景系列]] 的第一篇，聚焦于大语言模型的基础架构——Transformer。
 
-![Transformer注意力机制原理：展示了Query、Key、Value的三维空间映射及多头注意力并行计算结构](attachments/transformer_attention_mechanism.png)
+![[transformer_attention_mechanism.png|Transformer注意力机制原理：展示了Query、Key、Value的三维空间映射及多头注意力并行计算结构]]
 
 ---
 

@@ -9,7 +9,7 @@ tags:
 date: 2026-01-28
 ---
 
-![Clawdbot 虚拟员工概念图](attachments/clawdbot-cover.png)
+![[clawdbot-cover.png|Clawdbot 虚拟员工概念图]]
 
 # Clawdbot：7x24 小时虚拟员工架构解析
 

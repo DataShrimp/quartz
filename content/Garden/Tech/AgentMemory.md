@@ -12,7 +12,7 @@ date: 2026-02-04
 
 # 硅基突触：Agent 记忆进化的技术蓝图
 
-![硅基突触概念图：AI记忆系统的可视化](attachments/cover-silicon-synapse.png)
+![[cover-silicon-synapse.png|硅基突触概念图：AI记忆系统的可视化]]
 
 当我们剥离掉所有商业包装的泡沫，回归技术的**本质**：如果把 LLM 看作是人类知识的高维数据压缩，那么硅基智能的公式其实非常简洁：
 
@@ -40,7 +40,7 @@ $$ \text{Silicon Intelligence} = \text{Memory Storage} + \text{Cognitive Process
 
 ## 2. 持久化层：长期记忆的三位一体
 
-![长期记忆三位一体：情景、语义、程序记忆](attachments/memory-triad.png)
+![[memory-triad.png|长期记忆三位一体：情景、语义、程序记忆]]
 
 长期记忆（LTM）不能是一锅粥。我们需要像设计数据库一样设计它：
 *   **情景记忆 (Episodic)**：具体的时间、地点、经历（Log）。
@@ -53,7 +53,7 @@ $$ \text{Silicon Intelligence} = \text{Memory Storage} + \text{Cognitive Process
 
 **这里有个干货观点**：最近大火的 **Skills**（技能），本质上就是**外挂的程序记忆**最佳实践。与其让大模型费力去"记住"如何调用 API，不如直接给它一本可执行的操作手册。
 
-![MemGPT 架构图：LLM 作为操作系统](attachments/memgpt-architecture.png)
+![[memgpt-architecture.png|MemGPT 架构图：LLM 作为操作系统]]
 
 > **MemGPT 的启示**：把 Context Window 当作内存（RAM），把外部数据库当作硬盘（Disk），并通过"Heartbeat"机制让 Agent 自主决定何时读写。这就是 LLM 作为操作系统的雏形。
 

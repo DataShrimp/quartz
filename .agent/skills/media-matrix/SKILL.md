@@ -51,7 +51,7 @@ Analyze the input content (blog, notes, code) to extract:
 ### Step 2: Workspace Setup
 Use the script to create the standard folder structure under `platform/`:
 ```bash
-python3 .claude/skills/media-matrix/scripts/setup_content.py <topic_name>
+python3 .agent/skills/media-matrix/scripts/setup_content.py <topic_name>
 ```
 
 ### Step 3: Generation (Iterative)
@@ -66,20 +66,14 @@ For each selected platform:
       ```
     - **Constraint**: Ensure prompts specify "text in Chinese" unless English is strictly required for technical correctness.
 
-### Step 4: Visuals Generation (Automatic)
+### Step 4: Visuals Generation (Agent Execution)
 
-After creating the content and `images/prompts.md` files, **automatically run** the image generation script using Bash:
+After creating the content and `images/prompts.md` files, **you (the AI Agent) must use your built-in `generate_image` tool** to create the visuals.
 
-```bash
-python3 .claude/skills/media-matrix/scripts/generate_matrix_images.py platform/<topic_name>
-```
-
-Do NOT ask the user to run this command - execute it directly.
-The script will:
-*   Read `prompts.md` from each platform folder.
-*   Call the image generation API.
-*   Save images to `images/` folder.
-*   Insert `![[image.png]]` references into the main content file (Obsidian style).
+1. Read the `prompts.md` from each platform folder.
+2. For each prompt, use your `generate_image` tool to generate the image. 
+3. Move the generated image artifact to the platform's `images/` directory under the designated filename.
+4. Insert `![[image.png]]` references into the main content file (Obsidian style).
 
 ## 4. Example Usage
 

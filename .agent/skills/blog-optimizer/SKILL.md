@@ -32,42 +32,35 @@ As the AI agent, your first job is to refactor the user's markdown file directly
 
 ### Step 2: Image Placeholders (The Protocol)
 
-Instead of asking the user to run prompts, inject **special HTML comments** into the markdown file where images should go.
+Instead of injecting special HTML comments or running an external script, **you (the AI Agent) must use your built-in `generate_image` tool** during your optimization pass.
 
-**Syntax**:
-```html
-<!-- IMAGE_GEN: {"prompt": "Detailed prompt here...", "filename": "slug-name.png", "alt": "Descriptive alt text"} -->
-```
-
-**Placement Guide**:
+**Placement & Generation Guide**:
 *   **Cover**: Top of file, after frontmatter.
 *   **Concepts**: After H2 headers introducing complex topics.
 *   **Flows**: Where steps or processes are described.
+
+When an image is needed:
+1. Determine the appropriate prompt and filename (`slug-name`).
+2. Use the `generate_image` tool to create the image based on your prompt.
+3. Move the generated artifact image to the `attachments/` folder relative to the markdown file. Make sure the filename matches your intended `filename`.
+4. Insert standard Markdown image syntax into the file: `![Descriptive alt text](attachments/filename.png)`.
 
 **Example**:
 ```markdown
 # The Architecture of Transformers
 
-<!-- IMAGE_GEN: {"prompt": "A technical diagram showing the Transformer architecture with Encoder and Decoder blocks, minimal style, cyan and dark blue colors", "filename": "transformer-arch.png", "alt": "Transformer Architecture Diagram"} -->
+![Transformer Architecture Diagram](attachments/transformer-arch.png)
 
 The transformer model consists of...
 ```
 
-### Step 3: Execution (Automatic)
+### Step 3: Execution (Agent Workflow)
 
-After inserting image placeholders, **automatically run** the processor script using Bash:
-
-```bash
-python3 .claude/skills/blog-optimizer/scripts/process_blog_images.py <path_to_markdown_file>
-```
-
-Do NOT ask the user to run this command - execute it directly.
-
-**What the script does**:
-1.  Scans for `<!-- IMAGE_GEN: ... -->` comments.
-2.  Generates images using the local IDM-VTON/Gemini API (same as media-matrix).
-3.  Saves images to `attachments/` relative to the file.
-4.  Replaces the comment with standard Markdown image syntax: `![alt](attachments/filename.png)`.
+You are responsible for executing the image generation and file placement.
+1. Draft or edit the markdown file.
+2. Generate all necessary images using `generate_image` and specify "text in Simplified Chinese if any".
+3. Copy/move the images to their correct `attachments/` relative paths.
+4. Ensure the markdown directly references those generated images.
 
 ## 3. SEO Checklist (Reference)
 

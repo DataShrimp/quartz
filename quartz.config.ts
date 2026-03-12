@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN",
     baseUrl: "blog.datashrimp.space",
-    ignorePatterns: ["private", "**/templates/**", ".obsidian", "**/*.base", ".claude"],
+    ignorePatterns: ["private", "**/templates/**", ".obsidian", "**/*.base", ".claude", "platform"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

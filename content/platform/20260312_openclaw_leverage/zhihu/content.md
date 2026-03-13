@@ -1,4 +1,8 @@
+![](../images/cover.png)
+
 # 为什么我觉得 OpenClaw 不是一个适合“纯试玩”的 AI 框架？
+
+![](../images/lever_fulcrum_hero.png)
 
 先说结论：
 
@@ -58,6 +62,8 @@
 
 这类能力一旦补上，后面很多事情的成本会明显下降。
 
+![](../images/meta_skills_network.png)
+
 ---
 
 ## 3. OpenClaw 的核心不是“更强 AI”，而是“想法能不能被放大”
@@ -81,6 +87,8 @@
 - 这个反复出现的痛点，值不值得沉淀成一个 skill？
 - 这个想法如果做成闭环，会不会形成杠杆？
 
+![](../images/idea_vs_no_idea.png)
+
 ---
 
 ## 4. 想进一步提效，语音输入和多智能体编排会非常关键
@@ -103,6 +111,8 @@
 **效率的背后是 token 成本。**
 
 多智能体和语音输入确实是利器，但利器从来都不是免费的。
+
+![](../images/multi_agent_orchestration.png)
 
 ---
 

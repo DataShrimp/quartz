@@ -9,7 +9,7 @@ date: 2025-12-25
 ---
 ---
 
-![VLA Cover](../../attachments/vla_intro_cover.png)
+![[vla_intro_cover.png|VLA Cover]]
 
 当人工智能统一了不同模态的感知能力，并能够输出任意模态的数据后，“感知-认知一体化”的应用架构便具备了实现的理论基础。在这一领域，**视觉-语言-动作（Vision-Language-Action, VLA）模型**正是具身智能（Embodied AI）迈向物理世界交互的核心范式。
 

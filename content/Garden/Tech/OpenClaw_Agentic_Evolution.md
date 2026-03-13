@@ -12,7 +12,7 @@ date: 2026-03-09
 
 # 从无状态对话到自主生命周期：OpenClaw 架构本质剖析
 
-![AI智能体演进三阶段：从对话到生命](attachments/openclaw-cover.png)
+![[openclaw-cover.png|AI智能体演进三阶段：从对话到生命]]
 
 2026年的春天，大语言模型（LLM）的架构演进跨越了一个关键的奇点。
 
@@ -85,7 +85,7 @@ OpenClaw 引入了真正的“生命”概念。它用两个 Markdown 文件定�
 
 ## 深度剖析：自治权与安全性的博弈
 
-![AI智能体供应链安全威胁：SOUL.md 被篡改的风险](attachments/openclaw-security.png)
+![[openclaw-security.png|AI智能体供应链安全威胁：SOUL.md 被篡改的风险]]
 
 天下没有免费的杠杆。
 

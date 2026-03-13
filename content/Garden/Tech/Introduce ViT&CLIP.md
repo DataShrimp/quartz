@@ -30,7 +30,7 @@ date: 2025-12-11
 
 ViT 的核心包括三个关键组件：
 
-![ViT Architecture](../../attachments/vit_architecture.png)
+![[vit_architecture.png|ViT Architecture]]
 
 | 组件                   | 功能描述                                                                                                                               |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,7 +54,7 @@ ViT 的核心包括三个关键组件：
 
 CLIP 采用经典的**双塔结构**：
 
-![CLIP Architecture](../../attachments/clip_architecture.png)
+![[clip_architecture.png|CLIP Architecture]]
 
 - **图像编码器**：可采用 ViT 或 ResNet 架构
 - **文本编码器**：基于 Transformer 的文本编码器
@@ -64,7 +64,7 @@ CLIP 采用经典的**双塔结构**：
 
 CLIP 的核心是**对比学习**（Contrastive Learning）：
 
-![Contrastive Matrix](../../attachments/contrastive_matrix.png)
+![[contrastive_matrix.png|Contrastive Matrix]]
 
 1. 每个 batch 包含 **N** 个图像-文本对
 2. 计算生成 **N×N** 的相似度矩阵

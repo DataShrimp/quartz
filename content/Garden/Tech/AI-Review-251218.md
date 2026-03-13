@@ -7,7 +7,7 @@ tags:
 date: 2025-12-18
 ---
 
-![12月AI快评](../../attachments/ai_review_hero.png)
+![[ai_review_hero.png|12月AI快评]]
 
 快到年末，在圣诞休假前，各家公司都纷纷交出自己的收官作品（再卷起来）。
 
@@ -23,7 +23,7 @@ date: 2025-12-18
 
 产品端 Gemini 与 NotebookLM、GitHub、Photos 等打通，**生态整合力进一步加强**——模型能力趋同后，这才是真正的差异化壁垒。
 
-![Gemini生态整合](../../attachments/gemini_ecosystem.png)
+![[gemini_ecosystem.png|Gemini生态整合]]
 
 ---
 
@@ -58,6 +58,6 @@ date: 2025-12-18
 
 ---
 
-![从刷榜到落地](../../attachments/benchmark_to_landing.png)
+![[benchmark_to_landing.png|从刷榜到落地]]
 
 **小结**：12 月这一波更新的共同主题：**从"刷榜"转向"落地"**。无论是生态整合、产品化提速还是人才布局，都在为真正的商业化做准备。

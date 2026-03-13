@@ -12,7 +12,7 @@ date: 2025-12-14
 
 > 💬 **一句话评价**：主要亮点在于自建 GDPval 测评集上的优化，科学、编程等任务相比 GPT-5.1 有进步，但普通用户难以感知，甚至可能带来负向体验。
 
-![GPT-5.2 GDPval Performance](../../attachments/gpt5_2_gdpval_poster.png)
+![[gpt5_2_gdpval_poster.png|GPT-5.2 GDPval Performance]]
 
 ---
 

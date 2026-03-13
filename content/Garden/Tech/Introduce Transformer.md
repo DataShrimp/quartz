@@ -14,7 +14,7 @@ aliases:
   - Attention Mechanism
 ---
 
-# Transformer架构详解：注意力机制原理与最新演进
+
 
 > Transformer 本质是注意力机制（*"Attention is All You Need"*）。
 

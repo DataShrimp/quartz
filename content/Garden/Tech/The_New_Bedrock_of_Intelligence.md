@@ -10,7 +10,7 @@ tags:
 date: 2026-02-02
 ---
 
-# 智能的基石：Iceberg + Lance 如何定义了 AI 时代的"数据底座"
+
 
 ![[ai-data-bedrock-cover.png|AI 数据底座架构演进示意图]]
 

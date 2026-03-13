@@ -10,7 +10,7 @@ tags:
 date: 2026-03-01
 ---
 
-# Gemini 3.1 Pro & Nano Banana 2，虽迟但到
+
 
 ![[gemini-3.1-cover.png|Gemini 3.1 Pro Deep Think and Nano Banana 2 dual-engine architecture concept]]
 

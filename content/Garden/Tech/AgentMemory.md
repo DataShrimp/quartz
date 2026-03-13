@@ -10,7 +10,7 @@ tags:
 date: 2026-02-04
 ---
 
-# 硅基突触：Agent 记忆进化的技术蓝图
+
 
 ![[cover-silicon-synapse.png|硅基突触概念图：AI记忆系统的可视化]]
 

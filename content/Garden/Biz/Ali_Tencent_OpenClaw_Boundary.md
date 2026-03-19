@@ -8,11 +8,10 @@ tags:
   - 腾讯 qclaw
   - OpenClaw
   - 工作流
-draft: true
+draft: false
 ---
-# 我试了阿里悟空，也试了腾讯 qclaw，最后更在意的还是边界
 
-![](../images/cover_blog.png)
+![[cover_blog.png]]
 
 这两天我先试了阿里悟空，后来又顺手试了腾讯的 qclaw。
 
@@ -49,7 +48,7 @@ OpenClaw 这类能力，本来就不是一个特别“平民化”的东西。�
 
 这些当然不是假的。
 
-![](../images/product_wrapper.png)
+![[product_wrapper.png]]
 
 但我越来越觉得，这种安全并不是“风险没了”，而是风险、责任和控制权被重新分配了。
 
@@ -100,7 +99,7 @@ OpenClaw 这类能力，本来就不是一个特别“平民化”的东西。�
 
 阿里更偏办公、协作、组织流程和生产效率。腾讯更偏灵感触发、个人消费场景、轻互动和轻入口。
 
-![](../images/ali_vs_tencent.png)
+![[ali_vs_tencent.png]]
 
 所以如果只看这一层，你会发现两家其实不是在用同一种方式做产品化。
 
@@ -117,7 +116,7 @@ OpenClaw 这类能力，本来就不是一个特别“平民化”的东西。�
 3. 体验
 4. 边界
 
-![](../images/four_elements.png)
+![[four_elements.png]]
 
 因为现在看下来，两家都不是在拼底层能力代差。底层都是 OpenClaw，大家真正拼的，是谁能把这套能力包成更多人敢用、愿意留在里面、而且能慢慢长出生态的产品。
 

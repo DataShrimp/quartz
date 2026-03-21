@@ -10,7 +10,7 @@ MiniMax M2.7 这次最值得看的，不只是它又变强了。
 
 ## 为什么这个问题更重要
 
-MiniMax M2.7 单点模型能力很强：类似 GPT5.4的自我进化、接近 Gemini和 Claude 的编程能力、保持 DeepSeek 的高性价比风格，这些点当然都成立。
+MiniMax M2.7 单点模型能力挺强的：类似 GPT5.4的自我进化、接近 Gemini和 Claude 的编程能力、保持 DeepSeek 的高性价比风格，这些点当然都成立。
 
 比如公开材料里给出的 **SWE-Pro 56.22%**、**Terminal Bench 2 57.0%**，已经足够说明它不是普通水平。
 

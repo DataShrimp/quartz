@@ -14,8 +14,6 @@ tags:
 draft: false
 ---
 
-
-
 ![[cover_blog.png]]
 
 最近我在养龙虾 OpenClaw，有一个判断越来越明确：如果你把它理解成“更强一点的 AI 聊天工具”，你大概率会低估它。

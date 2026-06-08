@@ -14,13 +14,13 @@ It is designed to "pair program" the writing process: you provide the core viewp
 Run the interactive script:
 
 ```bash
-python .agent/skills/notebook-drafter/scripts/draft_article.py
+python3 .agent/skills/notebook-drafter/scripts/draft_article.py
 ```
 
 You can also provide arguments directly to skip the interactive prompts:
 
 ```bash
-python .agent/skills/notebook-drafter/scripts/draft_article.py --notebook <notebook_id> --opinion "My personal opinion is..."
+python3 .agent/skills/notebook-drafter/scripts/draft_article.py --notebook <notebook_id> --opinion "My personal opinion is..."
 ```
 
 ## How it Works

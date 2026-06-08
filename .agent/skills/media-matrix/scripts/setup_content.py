@@ -9,7 +9,7 @@ def setup_content_dirs(topic, platforms=None):
     
     date_str = datetime.now().strftime('%Y%m%d')
     topic_sanitized = topic.replace(' ', '_').lower()
-    base_dir = f"platform/{date_str}_{topic_sanitized}"
+    base_dir = f"content/platform/{date_str}_{topic_sanitized}"
     
     created_dirs = []
     

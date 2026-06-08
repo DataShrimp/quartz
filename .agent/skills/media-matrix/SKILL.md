@@ -49,7 +49,7 @@ Analyze the input content (blog, notes, code) to extract:
 3.  **The Logic/Data** (For Twitter/Zhihu)
 
 ### Step 2: Workspace Setup
-Use the script to create the standard folder structure under `platform/`:
+Use the script to create the standard folder structure under `content/platform/`:
 ```bash
 python3 .agent/skills/media-matrix/scripts/setup_content.py <topic_name>
 ```

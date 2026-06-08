@@ -32,7 +32,27 @@ def run_cmd(cmd_list, check=True):
 
 def check_dependencies():
     if not shutil.which("notebooklm"):
-        print("错误: 未找到 'notebooklm' 命令。请先安装: pip install notebooklm-py")
+        import glob
+        import os
+        possible_paths = [
+            os.path.expanduser("~/.local/share/uv/python/cpython-*/bin"),
+            os.path.expanduser("~/Library/Python/*/bin"),
+            os.path.expanduser("~/.local/bin"),
+        ]
+        found = False
+        for p_pattern in possible_paths:
+            paths = glob.glob(p_pattern)
+            paths.sort(reverse=True)
+            for p in paths:
+                if os.path.exists(os.path.join(p, "notebooklm")):
+                    os.environ["PATH"] = p + os.path.pathsep + os.environ.get("PATH", "")
+                    found = True
+                    break
+            if found:
+                break
+
+    if not shutil.which("notebooklm"):
+        print("错误: 未找到 'notebooklm' 命令。请先安装: pip3 install notebooklm-py")
         sys.exit(1)
     
     # Check auth
